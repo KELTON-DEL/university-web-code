@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Name</title>
+    <link rel="stylesheet" href="zetech.php">
+</head>
+<link rel="stylesheet" href="zetech.css">
+<body>
+    <header>
+        <div class="container">
+            <img src="PHOTS/091db446-aa66-4c3c-9baa-bca2244507fa.png" alt="University Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#departments">Departments</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to Zetech universty</h1>
+            <p>Your future starts here.</p>
+            <a href="#admissions" class="cta">Apply Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>zetech universty a rich history of academic excellence and a commitment to providing a well-rounded education.</p>
+        </div>
+    </section>
+
+    <section id="departments" class="departments">
+        <div class="container">
+            <h2>Our Departments</h2>
+            <div class="department-list">
+                <div class="department">
+                    <h3>Computer Science</h3>
+                    <p>Learn cutting-edge technologies and innovate the future.</p>
+                </div>
+                <div class="department">
+                    <h3>Business Administration</h3>
+                    <p>Prepare for leadership roles in the global market.</p>
+                </div>
+                <!-- Add more departments as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="admissions" class="admissions">
+        <div class="container">
+            <h2>Admissions</h2>
+            <p>Join our community of scholars. Apply today!</p>
+            <a href="apply.html" class="cta">Apply Now</a>
+        </div>
+     </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+               <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+               <br><br>
+                <label for="message"></label>
+                <textarea id="message" placeholder="type here your message" name="message" required></textarea>
+                <br><br>
+                <button type="submit">Submit</button>
+           
+           
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 zetech university. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
